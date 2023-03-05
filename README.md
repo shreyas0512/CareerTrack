@@ -8,8 +8,13 @@ CareerTrack is a web app designed to help users track and analyze job opportunit
 https://user-images.githubusercontent.com/77000606/222957582-05d31a58-7c70-465d-8440-6fbf4a45af6b.mp4
 
 ## App Preview
+![Screenshot (5)](https://user-images.githubusercontent.com/77000606/222957826-f727fa04-85c2-4e5c-ab5a-4901a10257fd.png)
 
+![Screenshot (6)](https://user-images.githubusercontent.com/77000606/222957835-0a6840d9-970b-421b-9e6f-4abff884afb7.png)
 
+![Screenshot (3)](https://user-images.githubusercontent.com/77000606/222957844-0b2b022b-7037-4777-9147-1376b312db69.png)
+
+![Screenshot (4)](https://user-images.githubusercontent.com/77000606/222957848-1d72d53c-83f7-4576-9fd0-cc67c13146ad.png)
 
 ## Built With
 
@@ -105,9 +110,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/CareerTrack`)
+2. Create your Feature Branch (`git checkout -b CareerTrack`)
 3. Commit your Changes (`git commit -m 'Added some features'`)
-4. Push to the Branch (`git push origin feature/CareerTrack`)
+4. Push to the Branch (`git push origin CareerTrack`)
 5. Open a Pull Request
 
 <!-- LICENSE -->
