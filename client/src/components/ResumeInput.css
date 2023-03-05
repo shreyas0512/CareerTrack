@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "almarai";
+  font-style: normal;
+  color: #dcdada;
+}
+
+.bg {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background: #09080a;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 100%;
+  background: #161516;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2.heading {
+  margin-top: 52px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 3200;
+  font-size: 30px;
+  text-align: left;
+  line-height: 33px;
+
+  background: linear-gradient(270deg, #cb2a77 15.86%, #5e2acb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h3.username {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  letter-spacing: 0.05em;
+
+  color: #e5e5e5;
+}
+
+h3.resume {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+
+  color: #e5e5e5;
+}
+.main {
+  overflow: auto;
+  width: 80%;
+  height: 100%;
+  background: #09080a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.hdres {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  align-self: flex-start;
+  margin-top: 50px;
+  margin-left: 60px;
+  background: linear-gradient(270deg, #cb2a77 15.86%, #5e2acb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2.hdres1 {
+  align-self: flex-start;
+  margin-left: 60px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #f0eeee;
+}
+
+.personal {
+  margin-top: 40px;
+
+  align-self: flex-start;
+  margin-left: 50px;
+
+  border-radius: 16px;
+  background: linear-gradient(rgba(94, 42, 203, 1), rgba(203, 42, 119, 1));
+  background-clip: padding-box;
+  z-index: 0;
+  /* just to show box-shadow still works fine */
+}
+
+.personal1 {
+  border: 1.5px solid transparent;
+  border-radius: 16px;
+  background: black;
+  background-clip: padding-box;
+  padding: 40px;
+  height: 100%;
+  z-index: 0;
+  /* just to show box-shadow still works fine */
+}
+.fullpersonal {
+  display: flex;
+  flex-direction: row;
+}
+
+.fullpersonal input {
+  width: 300px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #dcdada;
+}
+.fullpersonal h4 {
+}
+
+.leftpart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rightpart {
+  margin-top: 14px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+h3.personalhd {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: -20px;
+  width: fit-content;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: #dcdada;
+  opacity: 1;
+  background: linear-gradient(
+    217.1deg,
+    rgba(203, 42, 119, 0.2) 30.22%,
+    rgba(94, 42, 203, 0.2) 67.56%
+  );
+  border-radius: 15px;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.namehd {
+  margin: 10px;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+h4.mobilehd {
+  margin: 10px;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.githubhd {
+  margin: 10px;
+}
+
+.college {
+  margin-left: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+h4.collegehd {
+  margin: 10px;
+}
+
+.discipline {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.disciplinehd {
+  margin: 10px;
+}
+
+.from {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.fromhd {
+  margin: 10px;
+}
+
+.email {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: -120px;
+}
+
+h4.emailhd {
+  margin: 10px;
+}
+
+.linkedin {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.linkedinhd {
+  margin: 10px;
+}
+
+.skills {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h4.skillshd {
+  margin: 10px;
+}
+
+.addbtn {
+  margin-left: 20px;
+
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #5e2acb;
+  margin-top: 8px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #dcdada;
+  opacity: 1;
+  background: linear-gradient(
+    217.1deg,
+    rgba(203, 42, 119, 0.2) 30.22%,
+    rgba(94, 42, 203, 0.2) 67.56%
+  );
+  border-radius: 15px;
+}
+
+.addbtn a {
+  text-decoration: none;
+  color: #dcdada;
+}
+
+.addbtn:hover {
+  background: #931184;
+  border-radius: 15px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.01s;
+  color: #09080a;
+}
+
+.totalto {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.toinput {
+  height: 40px;
+}

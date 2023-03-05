@@ -1,0 +1,84 @@
+/* import almarai font*/
+
+* {
+  font-family: "inter almarai", sans-serif;
+}
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #09080a;
+  position: fixed;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+
+  margin-top: 0px;
+}
+.bg input {
+  border-radius: 7px;
+  border: 0px;
+  width: auto;
+  padding: 5px;
+  background-color: black;
+  background-clip: padding-box;
+  color: #cecccc;
+}
+.applntype {
+  border-radius: 7px;
+  height: 30px;
+  width: 80%;
+}
+.btn {
+  background: linear-gradient(
+    97.29deg,
+    rgba(203, 42, 119, 0.6) -9.98%,
+    rgba(28, 13, 205, 0.528) 93.25%
+  );
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 30px;
+  width: 30%;
+  color: aliceblue;
+  font-weight: 300;
+  font-size: small;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bg h3 {
+  align-self: flex-start;
+  margin-left: 40px;
+  color: #cecccc;
+  font-weight: 50;
+  font-size: 11px;
+}
+.textouter {
+  background: linear-gradient(
+    97.29deg,
+    rgba(203, 42, 119, 0.6) -9.98%,
+    rgba(28, 13, 205, 0.528) 93.25%
+  );
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  padding: 0.5px;
+
+  border-radius: 7px;
+}
+
+.applntype {
+  border-radius: 7px;
+  width: auto;
+  background-color: black;
+  border: 0px;
+  color: #cecccc;
+  padding: 5px;
+}
